@@ -1,0 +1,7 @@
+Every single method in interface is public.
+It's easily to prove by creating class that implements some interface.
+If You do this You cannot override interface method and set their
+privilege more strict.
+So to prove that every interface methods are public, You can change
+methods in Exercise5.java from public to more strict, like protected.
+If You do this, the compilator will say "no" and won't compile it.

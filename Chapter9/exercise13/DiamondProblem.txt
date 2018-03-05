@@ -1,0 +1,3 @@
+http://blog.jnickg.net/2013/09/the-diamond-problem-c.html
+
+In the above graphic I so generously made for the internet, it is shown that Animal has eyes, Winged has wings, and Legged has legs. Please draw your attention to the right, where non-virtual inheritance is used. Because both Winged and Legged have the superclass Animal, both of them inherit a number of eyes. This means that if Bee ran its getNumEyes method, you could easily get a compiler error because it wouldn't know which instance of Animal to pull from.

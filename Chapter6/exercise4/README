@@ -1,0 +1,5 @@
+in .exercise4 directory
+run javac examplepackage/Counter.java
+    javac examplepackage/InnerMain.java
+    java examplepackage.InnerMain
+    javac OuterMain

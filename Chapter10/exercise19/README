@@ -1,0 +1,5 @@
+Files quantity both in static and nonstatic method are the same.
+The difference is in construction of the class.
+In nonstatic classes are created by this() - it can be seen in .class files.
+But in static all classes are created by init().
+It proves that static classes are not connected with upper class.
