@@ -1,0 +1,3 @@
+After throwing "RuntimeException" exception:
+  in ex. 14 program will break, because there is not defined handling procedure in which switch will be turned off (that is necessary after executing this section)
+  in ex. 15 program won't break, because component that is responsible for that action is defined in "finally" section, so no matter what at the end switch will be turned off 
