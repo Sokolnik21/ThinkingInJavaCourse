@@ -1,0 +1,2 @@
+after using "javap -c" on SprinklerSystem I saw that StringBuilder is created only once and then compiler uses it's methods
+so I think that explicit creation of StringBuilder won't lead to better performance of the program
